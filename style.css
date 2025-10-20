@@ -1,0 +1,44 @@
+/* Gaya Dasar (Reset Sederhana) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cea7a7;
+    color: #822c2c;
+    line-height: 1.6;
+}
+
+/* Gaya Header */
+header {
+    background-color: #8a6f86;
+    color: rgb(227, 171, 171);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(117, 95, 95, 0.1);
+}
+
+/* Gaya Main Content */
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsif Sederhana untuk layar kecil */
+@media (max-width: 600px) {
+    .konten-profil {
+        flex-direction: column; /* Mengubah tata letak menjadi vertikal di layar kecil */
+        text-align: center;
+    }
+}
+
+/* Gaya Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #816767;
+    color: white;
+    margin-top: 20px;
+}
